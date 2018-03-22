@@ -26,6 +26,9 @@
     <%= text_field_tag "phone_number", @author.phone_number %>
   </div>
 
+  <%= submit_tag "Create" %>
+<% end %>
+
 
 
 <%= form_tag authors_path, method: "post" do %>
